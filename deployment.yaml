@@ -13,7 +13,7 @@ spec:
         app: flask-pod-frontend
     spec:
       containers:
-      - name: flask-backend
+      - name: flask-frontend
         image: manish8757/rancher:7c0ba5dcad236b0393949eb17917995a015a5edd
         imagePullPolicy: Always
         ports:

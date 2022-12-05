@@ -15,6 +15,6 @@ spec:
       containers:
       - name: flask-backend
         image: manish8757/rancher:test
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 5100          

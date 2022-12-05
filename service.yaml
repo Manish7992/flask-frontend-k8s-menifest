@@ -1,0 +1,14 @@
+kind: Service
+metadata:
+  name: flask-services-frontend
+  labels:
+    service: flask
+spec:
+  type: ClusterIP
+  selector:
+    app: flask-pod-frontend
+  ports:
+  - name: "bind-frontend"
+    protocol: "TCP"
+    port: 5100
+    targetPort: 5100

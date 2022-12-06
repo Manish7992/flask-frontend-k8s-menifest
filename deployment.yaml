@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-frontend
-        image: manish8757/rancher:7c0ba5dcad236b0393949eb17917995a015a5edd
+        image: manish8757/rancher:4a5f57e3bb1cf5f105feef2f9cf8c5d2d5860524
         imagePullPolicy: Always
         ports:
         - containerPort: 5100          
